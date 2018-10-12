@@ -8,7 +8,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Simulate an edit from another team member...");
+        Print("Simulate an edit from another team member...");
+    }
+    private static void Print(String s) {
+        System.out.print(s);
     }
     private static void Print(Stage stage, String s) {
         Stage UIViewStage = null;
